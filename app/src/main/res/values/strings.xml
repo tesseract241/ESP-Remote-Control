@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Toycar remote control</string>
+    <string name="forward">FORWARD</string>
+    <string name="forwardRight">FORWARD RIGHT</string>
+    <string name="forwardLeft">FORWARD LEFT</string>
+    <string name="back">BACK</string>
+    <string name="backRight">BACK RIGHT</string>
+    <string name="backLeft">BACK LEFT</string>
+    <string name="ESPNotFound">Remote device not found: are you sure you are on the right network?</string>
+</resources>

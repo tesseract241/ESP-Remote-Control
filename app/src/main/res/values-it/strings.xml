@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Telecomando automobilina</string>
+    <string name="forward">AVANTI</string>
+    <string name="forwardRight">AVANTI A DESTRA</string>
+    <string name="forwardLeft">AVANTI A SINISTRA</string>
+    <string name="back">INDIETRO</string>
+    <string name="backRight">INDIETRO A DESTRA</string>
+    <string name="backLeft">INDIETRO A SINISTRA</string>
+    <string name="ESPNotFound">Automobilina non trovata: sicuro di essere connesso al WiFi giusto?</string>
+</resources>

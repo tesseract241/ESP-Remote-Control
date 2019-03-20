@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="forwardButton" type="id"></item>
+    <item name="forwardLeftButton" type="id"></item>
+    <item name="forwardRightButton" type="id"></item>
+    <item name="backLeftButton" type="id"></item>
+    <item name="backRightButton" type="id"></item>
+    <item name="backButton" type="id"></item>
+</resources>
