@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:id="@id/forwardButton"
-        tools:text="@string/forward"
+        android:text="@string/forward"
         style="?android:attr/button"/>
 
     <android.widget.Button
@@ -25,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginEnd="250dp"
         android:id="@id/forwardLeftButton"
-        tools:text="@string/forwardLeft"/>
+        android:text="@string/forwardLeft"/>
 
     <android.widget.Button
         android:layout_height="wrap_content" android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="250dp"
         android:id="@id/forwardRightButton"
-        tools:text="@string/forwardRight"/>
+        android:text="@string/forwardRight"/>
 
     <android.widget.Button
         android:layout_height="wrap_content" android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="0dp"
         android:id="@id/stopButton"
-        tools:text="@string/stop"/>
+        android:text="@string/stop"/>
 
     <android.widget.Button
         android:layout_height="wrap_content" android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="250dp"
         android:id="@id/backRightButton"
-        tools:text="@string/backRight"/>
+        android:text="@string/backRight"/>
 
     <android.widget.Button
         android:layout_height="wrap_content" android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginEnd="250dp"
         android:id="@id/backLeftButton"
-        tools:text="@string/backLeft"/>
+        android:text="@string/backLeft"/>
 
     <android.widget.Button
         android:layout_height="wrap_content" android:layout_width="wrap_content"
@@ -75,6 +75,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:id="@+id/backButton"
-        tools:text="@string/back"/>
+        android:text="@string/back"/>
 
 </android.support.constraint.ConstraintLayout>
