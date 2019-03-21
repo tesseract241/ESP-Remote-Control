@@ -14,7 +14,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:id="@id/forwardButton"
-        tools:text="@string/forward"/>
+        tools:text="@string/forward"
+        style="?android:attr/button"/>
 
     <android.widget.Button
         android:layout_height="wrap_content" android:layout_width="wrap_content"
@@ -39,7 +40,17 @@
     <android.widget.Button
         android:layout_height="wrap_content" android:layout_width="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="310dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="0dp"
+        android:id="@id/stopButton"
+        tools:text="@string/stop"/>
+
+    <android.widget.Button
+        android:layout_height="wrap_content" android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="375dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="250dp"
@@ -49,7 +60,7 @@
     <android.widget.Button
         android:layout_height="wrap_content" android:layout_width="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="375dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginEnd="250dp"
@@ -60,7 +71,7 @@
         android:layout_height="wrap_content" android:layout_width="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="200dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:id="@+id/backButton"

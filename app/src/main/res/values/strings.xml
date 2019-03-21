@@ -7,4 +7,5 @@
     <string name="backRight">BACK RIGHT</string>
     <string name="backLeft">BACK LEFT</string>
     <string name="ESPNotFound">Remote device not found: are you sure you are on the right network?</string>
+    <string name="stop">STOP</string>
 </resources>

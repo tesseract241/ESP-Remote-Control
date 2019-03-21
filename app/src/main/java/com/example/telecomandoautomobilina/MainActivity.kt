@@ -13,8 +13,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
     }
 
     override fun onStart() {
@@ -50,6 +48,19 @@ class MainActivity : AppCompatActivity() {
         }
         forwardRightButton.setOnClickListener {
             val url = "http://192.168.1.1/forwardRight"
+            val request = cronetEngine.newUrlRequestBuilder(
+                url, MyUrlRequestCallback(), executor
+            ).build()
+            var statusListener = MyUrlStatusListener()
+            request.getStatus(statusListener)
+            request.start()
+            if(!statusListener.deviceFound){
+                Toast.makeText(applicationContext, R.string.ESPNotFound, Toast.LENGTH_SHORT).show()
+            }
+            statusListener.deviceFound = false
+        }
+        stopButton.setOnClickListener {
+            val url = "http://192.168.1.1/stop"
             val request = cronetEngine.newUrlRequestBuilder(
                 url, MyUrlRequestCallback(), executor
             ).build()

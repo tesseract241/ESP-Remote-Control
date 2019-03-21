@@ -6,4 +6,5 @@
     <item name="backLeftButton" type="id"></item>
     <item name="backRightButton" type="id"></item>
     <item name="backButton" type="id"></item>
+    <item name="stopButton" type="id" />
 </resources>
