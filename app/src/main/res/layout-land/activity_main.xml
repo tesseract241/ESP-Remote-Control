@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="@string/forwardLeft"
         app:layout_constraintBottom_toTopOf="@+id/stopButton"
-        app:layout_constraintEnd_toStartOf="@id/stopButton"
+        app:layout_constraintEnd_toStartOf="@+id/stopButton"
         app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"/>
 
@@ -34,7 +34,7 @@
         app:layout_constraintBottom_toTopOf="@+id/stopButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toEndOf="@id/stopButton"/>
+        app:layout_constraintStart_toEndOf="@+id/stopButton"/>
 
     <android.widget.Button
         android:id="@id/stopButton"
@@ -53,9 +53,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/backRight"
-        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/stopButton"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/stopButton"
         app:layout_constraintTop_toBottomOf="@+id/stopButton" />
 
     <android.widget.Button
@@ -63,9 +63,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/backLeft"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/stopButton"
+        app:layout_constraintEnd_toStartOf="@+id/stopButton"
         app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/stopButton" />
 
     <android.widget.Button
